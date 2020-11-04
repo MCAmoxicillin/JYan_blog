@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.jyan.JblogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.797 s <<< FAILURE! - in com.jyan.JblogApplicationTests
+sss  Time elapsed: 0.019 s  <<< ERROR!
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jyan.mapper.ArticleMapper.selectAByCN
+	at com.jyan.JblogApplicationTests.sss(JblogApplicationTests.java:27)
+
+inser  Time elapsed: 0.16 s  <<< ERROR!
+org.springframework.dao.DuplicateKeyException: 
+
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'article.PRIMARY'
+### The error may exist in com/jyan/mapper/ArticleMapper.java (best guess)
+### The error may involve com.jyan.mapper.ArticleMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO article  ( id, title, content, category_id, summary, created_time )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'article.PRIMARY'
+; Duplicate entry '2' for key 'article.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'article.PRIMARY'
+	at com.jyan.JblogApplicationTests.inser(JblogApplicationTests.java:74)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'article.PRIMARY'
+	at com.jyan.JblogApplicationTests.inser(JblogApplicationTests.java:74)
+
