@@ -48,7 +48,7 @@ public class UserController {
     public String Login(HttpServletResponse response, User user, Model model){
         if(userService.login(user.getUsername(), user.getPassword())){
             Cookie cookie=new Cookie(WebSecurityConfig.SESSION_KEY, user.getNetName());
-            cookie.setMaxAge(10);
+            cookie.setMaxAge(8000);
             response.addCookie(cookie);
             model.addAttribute(cookie);
             System.out.println("添加"+cookie.getName());
@@ -90,6 +90,7 @@ public class UserController {
     @RequestMapping("/deleted/{id}")
     public String deleted(@PathVariable("id") int id){
         articleService.deletedById(id);
+        System.out.println("已经删除"+id+"号文章");
         return "redirect:/admin";
     }
 
@@ -98,12 +99,12 @@ public class UserController {
      * @param model
      * @return
      */
-    @RequestMapping("/write")
+    @RequestMapping("/mywrite")
     public String write(Model model){
         List<Category> categories=categoryService.list();
         model.addAttribute("categories",categories);
         model.addAttribute("article",new Article());
-        return "admin/write";
+        return "admin/mywrite";
     }
 
     /**
@@ -113,14 +114,10 @@ public class UserController {
      */
     @RequestMapping(value = "/save",method = RequestMethod.POST)
     public String save(Article article){
-        String name=categoryService.selectCgnFromeA(article).getName();
-        Category category=categoryService.selectByName(name);
-        article.setCategoryId(category.getId());
-        if(article.getContent().length()>40){
+        if(article.getContent().length()>40 && article.getSummary()==null){
             article.setSummary(article.getContent().substring(0,40));
-        }else{
-            article.setSummary(article.getContent());
         }
+
         articleService.saveArticle(article);
         return "redirect:/admin";
     }

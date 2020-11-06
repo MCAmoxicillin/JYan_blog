@@ -28,7 +28,7 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     @Autowired
     private CategoryMapper categoryMapper;
     //根据id查询article
-    public Article getById(int id){
+    public Article getById(Long id){
         Article article=articleMapper.selectById(id);
         return article;
     }

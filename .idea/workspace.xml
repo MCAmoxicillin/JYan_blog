@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f22bf941-1a9a-4300-ae2d-e6f5e2452c09" name="Default Changelist" comment="" />
+    <list default="true" id="f22bf941-1a9a-4300-ae2d-e6f5e2452c09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mywrite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyan/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyan/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyan/JblogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyan/JblogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/entity/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyan/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyan/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jblog-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/jblog-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jblog-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/jblog-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jyan.JblogApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.jyan.JblogApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyan/JblogApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyan/JblogApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +40,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="JYan" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,26 +67,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1jZzecE31Rxc0Xmtsm4aIzdB8Ky" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatispapitest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../editor" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEAwork\Jblog\src\main\resources\templates\front" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEAwork\Jblog\src\main\resources\static" />
-      <recent name="D:\IDEAwork\Jblog\src\main\resources\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAwork\Jblog\src\main\resources\static\editor\css" />
+      <recent name="D:\IDEAwork\Jblog\src\main\resources\static\editor" />
+      <recent name="D:\IDEAwork\Jblog\src\main\resources\static" />
+      <recent name="D:\IDEAwork\Jblog\src\main\resources\templates\admin" />
+      <recent name="D:\IDEAwork\Jblog\src\main\resources\templates\front" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.JblogApplication">
@@ -165,6 +213,10 @@
       <workItem from="1604400229324" duration="689000" />
       <workItem from="1604400935865" duration="3922000" />
       <workItem from="1604454742524" duration="14065000" />
+      <workItem from="1604492936671" duration="932000" />
+      <workItem from="1604546060338" duration="8168000" />
+      <workItem from="1604562947840" duration="14583000" />
+      <workItem from="1604627922181" duration="920000" />
     </task>
     <servers />
   </component>
@@ -180,57 +232,65 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="892" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1604114535796" />
-    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604038378202">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604563356392">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604038378202" />
-    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1604473287320">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604563356392" />
+    <state x="211" y="0" key="CommitChangelistDialog2" timestamp="1604629234375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604473287320" />
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1604481642827">
+    <state x="211" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604629234375" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1604565045505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604481642827" />
-    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1604481642826">
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604565045505" />
+    <state width="1237" height="198" key="GridCell.Tab.0.bottom" timestamp="1604581001342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604481642826" />
-    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1604481642826">
+    <state width="1237" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604581001342" />
+    <state width="1237" height="198" key="GridCell.Tab.0.center" timestamp="1604581001342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604481642826" />
-    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1604481642826">
+    <state width="1237" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604581001342" />
+    <state width="1237" height="198" key="GridCell.Tab.0.left" timestamp="1604581001342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604481642826" />
-    <state width="1237" height="155" key="GridCell.Tab.1.bottom" timestamp="1604481642788">
+    <state width="1237" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604581001342" />
+    <state width="1237" height="198" key="GridCell.Tab.0.right" timestamp="1604581001342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604481642788" />
-    <state width="1237" height="155" key="GridCell.Tab.1.center" timestamp="1604481642788">
+    <state width="1237" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604581001342" />
+    <state width="1237" height="198" key="GridCell.Tab.1.bottom" timestamp="1604581001307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604481642788" />
-    <state width="1237" height="155" key="GridCell.Tab.1.left" timestamp="1604481642787">
+    <state width="1237" height="198" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604581001307" />
+    <state width="1237" height="198" key="GridCell.Tab.1.center" timestamp="1604581001307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604481642787" />
-    <state width="1237" height="155" key="GridCell.Tab.1.right" timestamp="1604481642788">
+    <state width="1237" height="198" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604581001307" />
+    <state width="1237" height="198" key="GridCell.Tab.1.left" timestamp="1604581001306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604481642788" />
+    <state width="1237" height="198" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604581001306" />
+    <state width="1237" height="198" key="GridCell.Tab.1.right" timestamp="1604581001307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="198" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604581001307" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1604555598135">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604555598135" />
     <state x="28" y="48" key="new project wizard" timestamp="1604125067822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604125067822" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1604461729977">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1604557100632">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604461729977" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1604470652422">
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604557100632" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1604575242347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604470652422" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604575242347" />
   </component>
 </project>

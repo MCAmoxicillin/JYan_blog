@@ -70,7 +70,7 @@ class JblogApplicationTests {
     }
     @Test
     public void inser(){
-        Article article = new Article(2,"江延","啊这",3,"一个人");
+        Article article = new Article(2L,"江延","啊这",3,"一个人",null);
         articleMapper.insert(article);
     }
 

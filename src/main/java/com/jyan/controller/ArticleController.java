@@ -72,7 +72,7 @@ public class ArticleController {
     public String search(String Key,Model model){
         Article article=articleService.selectByTitle(Key);
         model.addAttribute("article",article);
-        return "front/detail";
+        return "front/columnPage";
     }
 
     /**

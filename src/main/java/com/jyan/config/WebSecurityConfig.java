@@ -21,7 +21,7 @@ public class WebSecurityConfig implements WebMvcConfigurer {
         InterceptorRegistration registration=registry.addInterceptor(getSecurityInterceptor());
         registration
                 .addPathPatterns("/admin/**")
-                .excludePathPatterns("/article/**","/bootstrap/**","/css/**");
+                .excludePathPatterns("/article/**","/bootstrap/**","/css/**","/Editor/**","/static/**");
     }
     private class SecurityInterceptor extends HandlerInterceptorAdapter{
         @Override

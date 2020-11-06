@@ -30,8 +30,8 @@ public class Article implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "编号")
-    @TableId(value = "id", type = IdType.ASSIGN_ID)
-    private Integer id;
+    @TableId(value = "id", type = IdType.AUTO)
+    private Long id;
 
     @ApiModelProperty(value = "文章标题")
     private String title;
@@ -50,11 +50,12 @@ public class Article implements Serializable {
     @TableField(fill = FieldFill.INSERT)
     private Date createdTime;
 
-    public Article(Integer id, String title, String content, Integer categoryId, String summary) {
+    public Article(Long id, String title, String content, Integer categoryId, String summary,Date createdTime) {
         this.id = id;
         this.title = title;
         this.content = content;
         this.categoryId = categoryId;
         this.summary = summary;
+        this.createdTime=createdTime;
     }
 }
