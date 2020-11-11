@@ -47,8 +47,8 @@ public class UserController {
     @RequestMapping(value = "/dologin",method = RequestMethod.POST)
     public String Login(HttpServletResponse response, User user, Model model){
         if(userService.login(user.getUsername(), user.getPassword())){
-            Cookie cookie=new Cookie(WebSecurityConfig.SESSION_KEY, user.getNetName());
-            cookie.setMaxAge(8000);
+            Cookie cookie=new Cookie(WebSecurityConfig.COOKIE_KEY, user.getNetName());
+            cookie.setMaxAge(20);
             response.addCookie(cookie);
             model.addAttribute(cookie);
             System.out.println("添加"+cookie.getName());
@@ -117,7 +117,7 @@ public class UserController {
         if(article.getContent().length()>40 && article.getSummary()==null){
             article.setSummary(article.getContent().substring(0,40));
         }
-
+        System.out.println(article);
         articleService.saveArticle(article);
         return "redirect:/admin";
     }

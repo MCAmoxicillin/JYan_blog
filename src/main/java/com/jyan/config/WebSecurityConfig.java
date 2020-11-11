@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Configuration
 public class WebSecurityConfig implements WebMvcConfigurer {
-    public final static String SESSION_KEY="user";
+    public final static String COOKIE_KEY="user";
     public SecurityInterceptor getSecurityInterceptor(){
         return new SecurityInterceptor();
     }
@@ -21,7 +21,7 @@ public class WebSecurityConfig implements WebMvcConfigurer {
         InterceptorRegistration registration=registry.addInterceptor(getSecurityInterceptor());
         registration
                 .addPathPatterns("/admin/**")
-                .excludePathPatterns("/article/**","/bootstrap/**","/css/**","/Editor/**","/static/**");
+                .excludePathPatterns("/article/**","/bootstrap/**","/css/**","/Editor/**","/static/**   ");
     }
     private class SecurityInterceptor extends HandlerInterceptorAdapter{
         @Override
@@ -35,7 +35,7 @@ public class WebSecurityConfig implements WebMvcConfigurer {
             }
             for (Cookie cookie:cookies){
                 System.out.println(cookie.getName()+"拦截器中的cookie");
-                if(cookie.getName().equals(SESSION_KEY)){
+                if(cookie.getName().equals(COOKIE_KEY)){
                     return true;
                 }
             }

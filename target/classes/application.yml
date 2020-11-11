@@ -18,5 +18,7 @@ spring:
     servlet:
       content-type: text/html
     mode: LEGACYHTML5
+  jackson:
+    date-format: yyyy-MM  -dd HH:mm:ss
 mybatis-plus:
   mapper-locations: classpath:/com/jyan/mapper/xml/*.xml
